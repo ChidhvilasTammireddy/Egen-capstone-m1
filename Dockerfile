@@ -2,7 +2,7 @@
 FROM python:3.7.3-stretch
 LABEL maintainer="Chidvilas <tchidhvilas@gmail.com>"
 
-WORKDIR D:\EGEN
+WORKDIR /app
 
 COPY egen-capstone-m1.ipynb .
 COPY requirements.txt .
